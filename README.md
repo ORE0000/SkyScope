@@ -1,51 +1,79 @@
-# React + TypeScript + Vite
+# 🌦️ SkyScope - Build Your Own Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Climate**! This tutorial will guide you step-by-step in mastering cutting-edge technologies like **ReactJS**, **TypeScript**, **TanStack Query**, and **ShadCN UI**. Together, we'll create a beautiful, fully functional weather app with interactive features and deploy it to a custom domain for showcasing! 🌐
 
-Currently, two official plugins are available:
+## 🚀 Project Overview
+In this tutorial, you’ll learn to build a modern weather application packed with powerful features:
+- 🌍 **Real-time Weather**: Get accurate weather data for your current location or any city in the world.
+- 🔎 **City Search**: Search for weather details by entering a city's name.
+- 📈 **24-Hour Forecast Graph**: Visualize hourly temperature changes for better insights.
+- ⭐ **Favorites & Search History**: Use TanStack Query to save your favorite cities and view past searches with ease.
+- 🌑 **Dark & Light Mode**: Switch between light and dark themes for a personalized UI experience.
+- 📱 **Responsive Design**: Enjoy a seamless, user-friendly design on any device, powered by ShadCN UI and React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Technologies Used
+- **ReactJS**: For building the user interface.
+- **TypeScript**: Ensuring type safety and reducing errors.
+- **TanStack Query**: Enabling data fetching, caching, and mutations for search history and favorites.
+- **ShadCN UI**: Creating a beautiful and responsive design with pre-built components.
+- **Vite**: Fast and modern development environment for front-end projects.
 
-## Expanding the ESLint configuration
+## ✨ Key Features
+- **Search any city** 🌆: Find weather information for any city around the world.
+- **Current location weather** 📍: Automatically display weather based on your device’s location.
+- **Favorites** ⭐: Save your favorite cities for quick access.
+- **Light & Dark Mode** 🌞🌜: Toggle between themes to suit your preference.
+- **Graphical Forecast** 📊: See an hourly temperature forecast with a visually appealing graph.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 📚 Tutorial Highlights
+- Setting up a new project with **Vite**: Initialize your React app in seconds.
+- **TypeScript integration**: Add TypeScript for robust, error-free coding.
+- Building a sleek **UI with ShadCN**: Create a beautiful interface that's responsive and accessible.
+- **Data management** with **TanStack Query**: Learn advanced data handling for search, caching, and mutations.
+- **Deploying to a custom domain**: Showcase your project with a personalized domain.
 
-- Configure the top-level `parserOptions` property like this:
+## 📸 Screenshots
+| Light Mode | Dark Mode |
+|------------|-----------|
+| ![Light Mode](link-to-light-mode-screenshot) | ![Dark Mode](link-to-dark-mode-screenshot) |
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🚀 Getting Started
+To set up this project locally:
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/ORE0000/SkyScope.git
+   cd SkyScope
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser at `http://localhost:3000` to view the app.
+
+## 🔧 Installation
+You can create a new project with Vite by running:
+```bash
+npm create vite@latest
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+## 🛡️ Environment Variables
+To protect your API keys, create a `.env` file in the root directory and add your API keys like this:
+```bash
+REACT_APP_WEATHER_API_KEY=your_api_key_here
 ```
-# SkyScope
+Ensure your `.env` file is **never pushed to GitHub** by adding it to `.gitignore`:
+```bash
+# .gitignore
+.env
+```
+
+
+Enjoy building your own **SkyScope** weather app! 🌦️ Let’s bring your coding skills to the next level with a real-world project you can proudly showcase.
