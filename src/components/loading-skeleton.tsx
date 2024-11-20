@@ -1,6 +1,5 @@
 import { Skeleton } from "./ui/skeleton";
 
-
 function WeatherSkeleton() {
   return (
     <div className="space-y-6">
