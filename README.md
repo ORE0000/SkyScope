@@ -1,6 +1,8 @@
 # 🌦️ SkyScope - Build Your Own Weather App
 
-Welcome to **Climate**! This tutorial will guide you step-by-step in mastering cutting-edge technologies like **ReactJS**, **TypeScript**, **TanStack Query**, and **ShadCN UI**. Together, we'll create a beautiful, fully functional weather app with interactive features and deploy it to a custom domain for showcasing! 🌐
+[![SkyScope Banner](./public/SkyScope.png)](https://myskyscope.netlify.app/)
+
+Welcome to **SkyScope**! This tutorial will guide you step-by-step in mastering cutting-edge technologies like **ReactJS**, **TypeScript**, **TanStack Query**, and **ShadCN UI**. Together, we'll create a beautiful, fully functional weather app with interactive features and deploy it to a custom domain for showcasing! 🌐
 
 ## 🚀 Project Overview
 In this tutorial, you’ll learn to build a modern weather application packed with powerful features:
@@ -33,9 +35,15 @@ In this tutorial, you’ll learn to build a modern weather application packed wi
 - **Deploying to a custom domain**: Showcase your project with a personalized domain.
 
 ## 📸 Screenshots
+### Light Mode 🌞 | Dark Mode 🌜
 | Light Mode | Dark Mode |
 |------------|-----------|
-| ![Light Mode](link-to-light-mode-screenshot) | ![Dark Mode](link-to-dark-mode-screenshot) |
+| ![Light Mode](./public/SkyScope_Light.png) | ![Dark Mode](./public/SkyScope_Dark.png) |
+
+### Mobile Views 📱
+| Light Mode | Dark Mode |
+|------------|-----------|
+| ![Mobile Light Mode](./public/SkyScope_Mobile_Light.png) | ![Mobile Dark Mode](./public/SkyScope_Mobile_Dark.png) |
 
 ## 🚀 Getting Started
 To set up this project locally:
@@ -74,6 +82,5 @@ Ensure your `.env` file is **never pushed to GitHub** by adding it to `.gitignor
 # .gitignore
 .env
 ```
-
 
 Enjoy building your own **SkyScope** weather app! 🌦️ Let’s bring your coding skills to the next level with a real-world project you can proudly showcase.
