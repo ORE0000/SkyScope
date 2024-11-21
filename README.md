@@ -1,6 +1,9 @@
 # 🌦️ SkyScope - Build Your Own Weather App
 
-[![SkyScope Banner](./public/SkyScope.png)](https://myskyscope.netlify.app/)
+<a href="https://myskyscope.netlify.app/" target="_blank">
+  <img src="./public/SkyScope.png" alt="SkyScope Banner">
+</a>
+
 
 Welcome to **SkyScope**! This tutorial will guide you step-by-step in mastering cutting-edge technologies like **ReactJS**, **TypeScript**, **TanStack Query**, and **ShadCN UI**. Together, we'll create a beautiful, fully functional weather app with interactive features and deploy it to a custom domain for showcasing! 🌐
 
